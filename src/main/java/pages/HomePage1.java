@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 import base.Base;
 
-public class HomePage extends Base{
+public class HomePage1 extends Base{
 
 	//Page Repository Or Object Repository
 	
@@ -31,7 +31,7 @@ public class HomePage extends Base{
 			
 		
 		//Initiate Page Repository/Object above to use
-		public HomePage() {
+		public HomePage1() {
 		PageFactory.initElements(driver, this); //this means current class object and driver is coming from base class
 
 		}

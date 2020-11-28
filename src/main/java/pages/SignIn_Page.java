@@ -44,9 +44,9 @@ public class SignIn_Page extends Base {
 		
 		
 		//Click
-		public HomePage validateWalmartLogoLink() {
+		public HomePage1 validateWalmartLogoLink() {
 			WalmartLogoLink.click();
-			return new HomePage();
+			return new HomePage1();
 		}
 		
 		
