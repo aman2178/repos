@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Run Multiple Test]">
+  <test thread-count="5" name="Run Multiple test(failed)">
+    <classes>
+      <class name="testcases.HomePageTest">
+        <methods>
+          <include name="validateWalmartTitleAsExpected"/>
+          <include name="validateWalmartUrlAsExpected"/>
+          <include name="TearDown"/>
+          <include name="validateWordJoinNowDisplayedOnBtn"/>
+          <include name="validateWalmartLogoLinkToHomePage"/>
+          <include name="validateSignInBtnDisplayed"/>
+          <include name="validateWordSignInMyAccountTextAsExpected"/>
+          <include name="Setup"/>
+          <include name="validateJoinNowBtnDisplayed"/>
+          <include name="validateSignInMyAccountTextDisplayed"/>
+          <include name="validateWalmartLogoDisplayed"/>
+          <include name="validateWordSignInDisplayedOnBtn"/>
+        </methods>
+      </class> <!-- testcases.HomePageTest -->
+      <class name="testcases.SecondSignInBtnTest">
+        <methods>
+          <include name="SetupSecondSignInBtn"/>
+          <include name="TearDown"/>
+          <include name="validateUserGoesToSignInPage"/>
+        </methods>
+      </class> <!-- testcases.SecondSignInBtnTest -->
+      <class name="testcases.FirstSignInBtnTest">
+        <methods>
+          <include name="validateUserGoesToSignInPage"/>
+          <include name="TearDown"/>
+          <include name="SetupSecondSignInBtn"/>
+        </methods>
+      </class> <!-- testcases.FirstSignInBtnTest -->
+    </classes>
+  </test> <!-- Run Multiple test(failed) -->
+</suite> <!-- Failed suite [Run Multiple Test] -->

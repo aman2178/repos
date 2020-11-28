@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testing-1.0.dtd">
+<suite name="Run Multiple Test" >
+  <test name="Run Multiple test" >
+    <classes>
+      <class name="testcases.HomePageTest" /></classes>
+      <class name="testcases.FirstSignInBtnTest" /></classes>
+      <class name="testcases.SecondSignInBtnTest" /></classes>
+    </classes>
+  </test>
+</suite>
